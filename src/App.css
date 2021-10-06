@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  height: 1000px;
+  background-color: rgb(138, 85, 15);
+  max-width: 700px;
+}
+header {
+  display: flex;
+  width: 100%;
+  background-color: blueviolet;
+  max-width: 700px;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+header > h1 {
+  float: left;
+  margin: 0 20px;
+}
+
+header > p {
+  float: right;
+  margin: 0 20px;
+}
+
+article {
+  background-color: aquamarine;
+  height: 850px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+nav {
+  background-color: azure;
+  height: 850px;
+  width: 200px;
+  float: right;
+}
+
+.loginpart {
+  height: 100px;
+  width: 200px;
+  border: 1px solid red;
+}
